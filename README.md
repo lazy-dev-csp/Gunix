@@ -4,17 +4,21 @@ Gunix or Gux is a tool that enables you to see the uni timestamp or date of crea
 ## Usage
 
 **Default:** basic info
+```bash
 ./gux.py photo.jpg
-
+```
 **Size in GiB**
+```bash
 ./gux.py movie.mp4 -s GiB
-
+```
 **Date only**
+```bash
 ./gux.py doc.pdf -d
-
+```
 **Unix + Date**
+```bash
 ./gux.py log.txt -u -d
-
+```
 # Eample Output
 
 ```bash$ ./gux.py example.mp4 -s GiB
